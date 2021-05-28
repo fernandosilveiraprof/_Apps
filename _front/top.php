@@ -13,8 +13,12 @@
 			text-align: center;
 
 		}
+
 	</style>
 </head>
 <body>
 
 	<?php require 'menu.php'; ?>
+
+
+	

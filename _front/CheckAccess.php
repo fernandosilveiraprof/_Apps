@@ -1,6 +1,6 @@
 
-
-<footer>
+<div id="checkacces">
+	
 	<form action="" method="post" accept-charset="utf-8">
 		
 		
@@ -14,4 +14,5 @@
 		<label for="senha"> Senha </label>
 		<input type="password" name="senha">
 	</form>
-</footer>
+
+</div>
