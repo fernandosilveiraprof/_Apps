@@ -1,4 +1,5 @@
 <div class="resumo">
-	<h1> resumo </h1>
+	<h1> Resumo </h1>
+
 	
 </div>
