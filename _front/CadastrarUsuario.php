@@ -60,7 +60,9 @@
 			<label for="rua"> Rua: </label>
 			<input type="text" name="rua">
 		</div>
-
+		<div class="grpInputs">
+			<input type="hidden" name="cliente" value="cliente" >
+		</div>
 
 	</form>
 </article>
