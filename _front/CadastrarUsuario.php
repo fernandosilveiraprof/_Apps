@@ -1,5 +1,5 @@
 
-<?php require 'top.php'; ?>
+<?php require 'top.php';  ?>
 
 <article id="cadastrouser">
 	
