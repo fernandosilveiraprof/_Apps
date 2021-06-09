@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title> Cadastrar Usuário</title>
 	<link rel="stylesheet" href="_css/style.css">
-	<link rel="stylesheet" href="_css/menustyle.css">
+	
 </head>
 <body>
 	<style type="text/css" media="screen">

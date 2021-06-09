@@ -10,7 +10,7 @@
 		<a href="painel.php"> Início </a>
 
 
-		<input id="bt-cadastro" type="checkbox" name="subs" class="SInput-1" >
+		<input id="bt-cadastro" type="checkbox" name="subs" class="SInput-1"  checked>
 		<label for="bt-cadastro" class="LbSubMenu-1">Cadastros</label>
 
 
