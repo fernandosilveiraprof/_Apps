@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "tahoma";
+	
+}
+nav {background-color: rgba(0,0,0,1);}
+nav a, nav label {
+	background-color: rgba(255,255,255,0.1);
+}
+
+.dMenu {
+	display: column;
+	position: absolute;
+
+	z-index: 12;
+	top: 60px;
+
+	left: -300px;
+
+	width:270px;
+	height: 80vh;
+
+	max-width: 270px;
+	min-height: 40px;
+	max-height: 1000px;
+	line-height: 40px;
+	background:rgba(50,50,50,1);
+	transition: .2s all;
+
+	text-align:left;
+
+	padding: 0px 0px;
+
+}
+
+nav {
+	display: flex;
+	flex-direction: space-between;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+
+	color: rgba(255,255,255,1);
+
+}
+#lbequiv {
+
+	width: 60px;
+	line-height: 60px;
+	height: 60px;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+#bt-equiv:checked ~ #lbequiv,
+nav a:hover, 
+input:checked ~ label, 
+label:hover,
+.SInput-1:checked ~ div[id^=Sub-1],
+.SInput-2:checked ~ div[id^=Sub-2],
+#bt-equiv:checked ~ label, 
+nav input[id^="bt-*"]:checked ~ label
+{
+	background-color: rgba(100,100,100,0.8);
+	
+}
+#bt-equiv:checked ~ .dMenu {
+	left: 0px;
+
+}
+
+.dMenu label ,
+.dMenu a
+{
+	display: block;
+	width: 100%-30px;
+	cursor: pointer;
+	color: white;
+	text-decoration-line: none;
+	display: block;
+	padding:0px 15px;
+
+}
+
+
+div[id^=Sub-] {
+
+	display: flex;
+	flex-direction: column;
+	z-index: 0;
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	line-height: 40px;
+	max-height: 0px;
+	min-height: 0px;
+	left: 0px;
+	overflow:auto;
+	transition: .2s all;
+	background-color: rgba(255,255,255,.3);
+}
+.SInput-1:checked ~ div[id^=Sub-1],
+.SInput-2:checked ~ div[id^=Sub-2]{
+
+	position: relative;
+	z-index: 10;
+	width: 100%;
+
+	min-height: 30px;
+	height: auto;
+	max-height:1000px;
+
+	left: 0px;
+	background-color: rgba(0,0,0,1);
+
+}
+
+nav input {
+	display: none;
+}
+
+
+nav figure {
+
+	margin-right:0px;
+
+}
+nav figure img{
+	margin-left: 5px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+
+
+}
+
+nav h2 {
+	margin-left: 5px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 320px) {
+	.dMenu {
+		max-width: 200px;
+		width: 220px;
+		left: -100%;
+	}
+}
+@media only screen and (min-width: 300px) and (max-width: 320px) {
+	.dMenu {
+		max-width: 100%;
+		width: 100%;
+		left: -100%;
+	}
+}
+/*
+165,05
+846000000014 650502962022 105101870001 002244403016
+
+192,70
+846300000011 927002962029 106101870009 002262831783
+
+
+Protocolo
+187213549034324
+*/

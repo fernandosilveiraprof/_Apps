@@ -1,7 +1,7 @@
 
 <?php require 'top.php'; ?>
 
-<article>
+<article id="cadastrouser">
 	
 	<form action="">
 		<h1>
