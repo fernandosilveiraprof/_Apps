@@ -9,19 +9,29 @@ nav a, nav label {
 	background-color: rgba(255,255,255,0.1);
 }
 
-input[type=checkbox] ~ label, 
+#bt-equiv:checked ~ #lbequiv,
+nav a:hover, 
+input:checked ~ label, 
+label:hover,
+.SInput-1:checked ~ div[id^=Sub-1],
+.SInput-2:checked ~ div[id^=Sub-2],
+#bt-equiv:checked ~ label, 
 nav input[id^="bt-*"]:checked ~ label
 {
-	background-color: rgba(100,100,100,0.5);
+	background-color: rgba(0,0,0,1);
 	
 }
 
 
 .dMenu, nav{
+	background:rgba(50,150,50,1);
 	color: rgba(255,255,255,1);
 }
 
+#bt-equiv:checked ~ .dMenu {
+	left: 0px;
 
+}
 
 .dMenu {
 	display: column;
@@ -39,7 +49,7 @@ nav input[id^="bt-*"]:checked ~ label
 	min-height: 40px;
 	max-height: 1000px;
 	line-height: 40px;
-	background:rgba(50,150,50,1);
+	
 	transition: .2s all;
 
 	text-align:left;
@@ -71,10 +81,7 @@ nav {
 
 }
 
-#bt-equiv:checked ~ .dMenu {
-	left: 0px;
 
-}
 
 .dMenu label ,
 .dMenu a
@@ -104,7 +111,7 @@ div[id^=Sub-] {
 	left: 0px;
 	overflow:auto;
 	transition: .2s all;
-	
+	background-color: rgba(255,255,255,1);
 }
 .SInput-1:checked ~ div[id^=Sub-1],
 .SInput-2:checked ~ div[id^=Sub-2]{
@@ -145,28 +152,11 @@ nav h2 {
 	margin-left: 5px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 320px) {
-	.dMenu {
-		max-width: 200px;
-		width: 220px;
-		left: -100%;
-	}
-}
-@media only screen and (min-width: 300px) and (max-width: 320px) {
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
 	.dMenu {
 		max-width: 100%;
 		width: 100%;
 		left: -100%;
 	}
 }
-/*
-165,05
-846000000014 650502962022 105101870001 002244403016
-
-192,70
-846300000011 927002962029 106101870009 002262831783
-
-
-Protocolo
-187213549034324
-*/

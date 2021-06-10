@@ -1,6 +1,6 @@
 <nav>
 
-	<input type="checkbox" id="bt-equiv" >
+	<input type="checkbox" id="bt-equiv" checked >
 	<label for="bt-equiv" id="lbequiv"> &equiv; </label>
 
 
@@ -10,7 +10,7 @@
 		<a href="painel.php"> Início </a>
 
 
-		<input id="bt-cadastro" type="checkbox" name="subs" class="SInput-1"  checked>
+		<input id="bt-cadastro" type="checkbox" name="subs" class="SInput-1"  >
 		<label for="bt-cadastro" class="LbSubMenu-1">Cadastros</label>
 
 
